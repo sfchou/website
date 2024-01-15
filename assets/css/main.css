@@ -1707,9 +1707,9 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
-		max-width: calc(100% - 4.5em);
-		width: 45em;
+		margin: 0 0 0 10%;
+		max-width: calc(100% - 8em);
+		width: 80em;
 	}
 
 		.container.xsmall {
@@ -2899,7 +2899,9 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				word-wrap: break-word;
+				/* display: inline; */
+				/* padding-right: 21em; */
 			}
 
 		/* Main */
@@ -2929,7 +2931,9 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				word-wrap: break-word;
+				/* display: inline; */
+				/* padding-right: 20em; */
 			}
 
 	}

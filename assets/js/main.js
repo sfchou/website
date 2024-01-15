@@ -81,7 +81,9 @@
 				.each(function() {
 
 					var	$this = $(this),
-						id = $this.attr('href'),
+						id = $this.attr('href');
+						if(id.charAt(0)!='#')
+							return;
 						$section = $(id);
 
 					// No section for this link? Bail.
