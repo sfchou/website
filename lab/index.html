@@ -138,8 +138,8 @@
                 <!-- Counter Item -->
                 <div class="col counter-item" >
                     <button  class="btn shadow-lg" style="color: white;" data-bs-toggle="modal" data-bs-target="#PhDmodal">
-                    <img src="icons/education-1.1s-200px.png" width="80" height="80" style="margin: -15px 0 -25px 0;">
-                    <span class="number" data-from="0" data-to="1" data-refresh-interval="100">1</span>
+                    <img src="icons/education-1.1s-200px.png" width="80" height="80" style="margin: -10px 20px -30px 20px;">
+                    <span class="number" data-from="0" data-to="1" data-refresh-interval="100"><span id="count_d"></span></span>
                     <h4>博士生</h4>
                     </button>
                 </div>
@@ -147,8 +147,8 @@
                 <!-- Counter Item -->
                 <div class="col counter-item">
                     <button class="btn shadow-lg" style="color: white;" data-bs-toggle="modal" data-bs-target="#Msmodal">
-                    <img src="icons/education-1.1s-200px.png" width="80" height="80" style="margin: -15px 0 -25px 0;">
-                    <span class="number" data-from="0" data-to="12" data-refresh-interval="100">13</span>
+                    <img src="icons/education-1.1s-200px.png" width="80" height="80" style="margin: -10px 20px -30px 20px;">
+                    <span class="number" data-from="0" data-to="12" data-refresh-interval="100"><span id="count_g"></span></span>
                     <h4>碩士生</h4>
                 </button>
                 </div>
@@ -156,8 +156,8 @@
                 <!-- Counter Item -->
                 <div class="col counter-item">
                     <button class="btn shadow-lg" style="color: white;" data-bs-toggle="modal" data-bs-target="#Bamodal">
-                    <img src="icons/education-1.1s-200px.png" width="80" height="80" style="margin: -15px 0 -25px 0;">
-                    <span class="number" data-from="0" data-to="7" data-refresh-interval="100">8</span>
+                    <img src="icons/education-1.1s-200px.png" width="80" height="80" style="margin: -10px 20px -30px 20px;">
+                    <span class="number" data-from="0" data-to="7" data-refresh-interval="100"><span id="count_ug"></span></span>
                     <h4>專題生</h4>
                 </button>
                 </div>
@@ -177,7 +177,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" style="margin-bottom: -15px;">
-            <p>Guan-Ye Liao (廖冠曄). D11215004(at)mail.ntust.edu.tw</p><br>
+            <p  name="d">Guan-Ye Liao (廖冠曄). D11215004(at)mail.ntust.edu.tw</p><br>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -196,21 +196,23 @@
             </div>
             <div class="modal-body" style="margin-bottom: -15px;">
                 <p style="margin-top: 20px;font-size: 20px;">碩士三年級</p><br>
-                <p>Chao-Hsiang Liao (廖昭翔). M11115060(at)mail.ntust.edu.tw</p><br>
-                <p>Ching-Yen Lai (賴靖諺). M11115T03(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Chao-Hsiang Liao (廖昭翔). M11115060(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Ching-Yen Lai (賴靖諺). M11115T03(at)mail.ntust.edu.tw</p><br>
+
                 <p style="margin-top: 20px;font-size: 20px;">碩士二年級</p><br>
-                <p>Wen-Yi Lo (羅文熠). M11215013(at)mail.ntust.edu.tw</p><br>
-                <p>Chia-Hao Fan (范家豪). M11215116(at)mail.ntust.edu.tw</p><br>
-                <p>Bau-Ruei Jin (金保睿). M11215064(at)mail.ntust.edu.tw</p><br>
-                <p>Cheng-Yen Liu (劉政彥). M11215049(at)mail.ntust.edu.tw</p><br>
-                <p>Chun-Yen Lin (林均彥). M11215035(at)mail.ntust.edu.tw</p><br>
-		<p style="margin-top: 20px;font-size: 20px;">碩士一年級</p><br>
-                <p>Yung-Yeh Huang (黃永曄). M11315083(at)mail.ntust.edu.tw</p><br>
-                <p>Chi Liang (梁祺). M11315106(at)mail.ntust.edu.tw</p><br>
-                <p>Ting-Feng Yang (楊廷烽). M11315020(at)mail.ntust.edu.tw</p><br>
-                <p>Hsuan-Po Huang (黃暄博). M11315091(at)mail.ntust.edu.tw</p><br>
-                <p>Yu-Sen Chang (張宥森). M11315131(at)mail.ntust.edu.tw</p><br>
-                <p>Y-Chen Kuo (郭鈺晨). M11315134(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Wen-Yi Lo (羅文熠). M11215013(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Chia-Hao Fan (范家豪). M11215116(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Bau-Ruei Jin (金保睿). M11215064(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Cheng-Yen Liu (劉政彥). M11215049(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Jyun-Yan Lin (林均彥).     M11215035(at)mail.ntust.edu.tw</p><br>
+
+		            <p style="margin-top: 20px;font-size: 20px;">碩士一年級</p><br>
+                <p name="g">Yung-Yeh Huang (黃永曄). M11315083(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Chi Liang (梁祺). M11315106(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Ting-Feng Yang (楊廷烽). M11315020(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Hsuan-Po Huang (黃暄博). M11315091(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Yu-Sen Chang (張宥森). M11315131(at)mail.ntust.edu.tw</p><br>
+                <p name="g">Y-Chen Kuo (郭鈺晨). M11315134(at)mail.ntust.edu.tw</p><br>
                 <br>
                 <p style="font-size: 20px;">Alumni</p><br>
                 <p>Che-Yu Qiu (邱徹宇). M11015075(at)mail.ntust.edu.tw</p><br>
@@ -236,16 +238,16 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" style="margin-bottom: -15px;">
-            <p>Chi-Chun Yang (楊淇鈞). B11132030(at)gapps.ntust.edu.tw</p><br>
-            <p>Chun-An Yang (楊鈞安). B11115033(at)mail.ntust.edu.tw</p><br>
-            <p>Yao-Ming Wang (王耀明). B11132005(at)mail.ntust.edu.tw</p><br>
-            <p>Po-Chih Chiu (邱柏誌). B11132027(at)mail.ntust.edu.tw</p><br>
-            <p>Po-Wen Fang (方柏文). B11132029(at)mail.ntust.edu.tw</p><br>
-            <p>Yu-Hsiang Wang (王昱翔). B11115031(at)mail.ntust.edu.tw</p><br>
-            <p>Sheng-Feng Lu (呂昇峰). B11115044(at)mail.ntust.edu.tw</p><br>
-            <p>Yi-Hsiang Hu (胡逸祥). B10930029(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Chi-Chun Yang (楊淇鈞). B11132030(at)gapps.ntust.edu.tw</p><br>
+            <p name="ug">Chun-An Yang (楊鈞安). B11115033(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Yao-Ming Wang (王耀明). B11132005(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Po-Chih Chiu (邱柏誌). B11132027(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Po-Wen Fang (方柏文). B11132029(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Yu-Hsiang Wang (王昱翔). B11115031(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Sheng-Feng Lu (呂昇峰). B11115044(at)mail.ntust.edu.tw</p><br>
+            <p name="ug">Yi-Hsiang Hu (胡逸祥). B10930029(at)mail.ntust.edu.tw</p><br>
             <br>
-            <!--
+
             <p style="font-size: 20px;">Alumni</p><br>
             <p>Wei-Qing Li (李維清). A10815003(at)mail.ntust.edu.tw</p><br>
             <p>Jaslyn Jonsond (林佩佩). B10915067(at)mail.ntust.edu.tw</p><br>
@@ -265,7 +267,7 @@
             <p>Cheng-Yen Chiang (江政諺). B11032032(at)gapps.ntust.edu.tw</p><br>
             <p>Chia-Chun Fu (傅家均). B11015056(at)mail.ntust.edu.tw</p><br>
             <p>Yi-An Lin (林翊安). B11015023(at)mail.ntust.edu.tw</p><br>
-            -->
+
             
         </div>
         <div class="modal-footer">
@@ -413,7 +415,7 @@
                 <!-- Counter Item -->
                 <!-- <div class="col counter-item">
                     <button class="btn shadow-lg" style="color: white;margin-left: 100px;" data-bs-toggle="modal" data-bs-target="#Researchmodal">
-                        <img src="icons/book.png" width="80" height="80" style="margin: -15px 0 -10px 0;">
+                        <img src="icons/book.png" width="80" height="80" style="margin: -10px 20px 0 20px;">
                         <span class="number" data-from="0" data-to="1" data-refresh-interval="100" >x</span>
                         <h4>學界</h4>
                 </button>
@@ -422,8 +424,8 @@
                 <!-- Counter Item -->
                 <div class="col counter-item">
                     <button class="btn shadow-lg" style="color: white;/* margin-right: 100px; */" data-bs-toggle="modal" data-bs-target="#Industymodal">
-                        <img src="icons/gear.png" width="80" height="80" style="margin: -15px 0 -10px 0;">
-                        <span class="number" data-from="0" data-to="1" data-refresh-interval="100" >0</span>
+                        <img src="icons/gear.png" width="80" height="80" style="margin: -10px 20px 0 20px;">
+                        <span class="number" data-from="0" data-to="1" data-refresh-interval="100" ><span id="count_w"></span></span>
                         <h4>業界</h4>
                 </button>
                 </div>
@@ -461,7 +463,8 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" style="margin-bottom: -15px;">
-            <p>暫時沒有</p><br>
+            <p name="w">黃智優：烽泰科技有限公司</p><br>
+            <p name="w">邱徹宇：緯創資通股份有限公司</p><br>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -470,7 +473,15 @@
     </div>
   </div>
 
-<!-- End of Client Section -->		
+  <script>
+    let dElements = document.querySelectorAll('p[name="d"]'), gElements = document.querySelectorAll('p[name="g"]');
+    let ugElements = document.querySelectorAll('p[name="ug"]'), wElements = document.querySelectorAll('p[name="w"]');
+    document.getElementById("count_d").textContent = dElements.length;
+    document.getElementById("count_g").textContent = gElements.length;
+    document.getElementById("count_ug").textContent = ugElements.length;
+    document.getElementById("count_w").textContent = wElements.length;
+</script>
+  
 <footer class="mastfoot mb-3 bg-white py-4 border-top">
     <div class="inner container">
          <div class="row">
